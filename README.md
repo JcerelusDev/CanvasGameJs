@@ -10,5 +10,8 @@ it is  in the Wiki section above
 
 It will be complete as soon as possible.
 
-The cdn is :
-<scrript src="https://cdn.jcdn.jsdcdn.jcdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/canvasgame.jcanvasgame.js"></script>
+The cdn is :<scrript src="https://cdn.jcdn.jsdcdn.jcdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/canvasgame.jcanvasgame.js"></script>
+
+
+
+
