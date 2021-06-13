@@ -9,3 +9,6 @@ it is  in the Wiki section above
  you can take a look .
 
 It will be complete as soon as possible.
+
+The cdn is :
+<scrript src="https://cdn.jcdn.jsdcdn.jcdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/canvasgame.jcanvasgame.js
