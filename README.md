@@ -10,7 +10,9 @@ it is  in the Wiki section above
 
 It will be complete as soon as possible.
 
-The cdn is
+The cdn is :
+
+
 https ://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/canvasgame.jcanvasgame.js
 
 
