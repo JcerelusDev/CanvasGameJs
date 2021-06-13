@@ -13,7 +13,7 @@ It will be complete as soon as possible.
 The cdn is :
 
 
-<script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/Lib/canvasgame.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame@01/Lib/canvasgame.js"></script>
 
 
 The documentation link :
