@@ -16,5 +16,8 @@ The cdn is :
 https ://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/canvasgame.jcanvasgame.js
 
 
+The documentation link :
+
+https://github.com/JcerelusDev/canvasGame01/wiki
 
 
