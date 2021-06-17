@@ -20,12 +20,8 @@ rectColor=function(x){ctx.fillStyle=x}
 strokeColor=function(x){ctx.strokeStyle=x}
 Rect=function(x,y,w,h){ctx.fillRect(x,y,w,h)}
 Stroke=function(x,y,w,h){ctx.strokeRect(x,y,w,h)}
-playSound=function(x){self.sound=new Audio()
-self.sound.src=x
-self.play=self.sound.play()}
-pauseSound=function(x){self.sound=new Audio()
-self.sound.src=x
-self.play=self.sound.pause()}
+playSound=function(x){this.audio=new Audio(x)
+this.audio.volume =0.3;this.audio.play()}
 Text=function(color,fontsize,fontfamily,t,x,y,fontweight,fontstyle){this.x=x
 this.y=y
 this.color=color
