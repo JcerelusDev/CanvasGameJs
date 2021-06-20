@@ -1,10 +1,11 @@
-/*©JcerelusDev All Rights Reserved
+/* ©JcerelusDev All Rights Reserved
 Developper : Jean .F CÉRÉLUS
 canvasJs is a javascript canvas library, 
 that makes you develop game very  quick
 all of the work is done behind the scene.
+
+Developper : Jean .F CÉRÉLUS
 */
-//Developper : Jean .F CÉRÉLUS
 
 const get=function(x){return document.querySelector(x)}
 const getAll=function(x){return document.querySelectorAll(x)}
