@@ -14,8 +14,7 @@ because it is well documented.
 
 You can grab the cdn link down below :
 
-<script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/src/canvasgame.js"></script>
-
+&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/src/canvasgame.js"&gt;&lt/script&gt;
 
 The documentation link :
 
