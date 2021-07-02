@@ -14,11 +14,11 @@ because it is well documented.
 
 You can grab the cdn link down below :
 <pre><code>
-&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvasGame01/Js/canvas-game.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvas00/Js/canvas-game.min.js"&gt;&lt;/script&gt;
 </code></pre>
 The documentation link :
 
-https://github.com/JcerelusDev/canvasGame01/wiki
+https://github.com/JcerelusDev/canvas00/wiki
 
 
 
