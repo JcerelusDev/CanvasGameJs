@@ -24,4 +24,4 @@ https://github.com/JcerelusDev/canvas00/wiki
 
 Jcerelus Dev All Rights Reserved 
 
-Developper : Jean .F CÉRÉLUS
+Developer : Jean .F CÉRÉLUS
