@@ -8,7 +8,7 @@ things done.
 
 It also supports (gravity and collision detection) ,
 you can build the entire game using only (canvasGameJs),
-because it is well documented.
+because it is well documented and built.
 
 
 
