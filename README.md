@@ -1,7 +1,7 @@
 # canvasGameJs
 
  canvasGameJs is a javascript 2d canvas game library,
- that makes you develop game very quick all of the work is done behind the scene. 
+ that helps you develop game very quick all of the work is done behind the scene. 
 
 With canvasGameJs you have the advantage of writing fewer lines of code to get
 things done.
