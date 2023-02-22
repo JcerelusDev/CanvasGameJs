@@ -28,5 +28,6 @@ Developer : Jean F. CÉRÉLUS
 
 
 A little Example :
-
-https://youtu.be/oorf3LWWDLk
+```html
+<a href="https://youtu.be/oorf3LWWDLk">Platformer</a>
+```
