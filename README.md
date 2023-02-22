@@ -18,7 +18,7 @@ You can grab the cdn link down below :
 </code></pre>
 The documentation link :
 
-https://github.com/JcerelusDev/canvas00/wiki
+<a href="https://github.com/JcerelusDev/canvas00/wiki">Get Started </a>
 
 
 
