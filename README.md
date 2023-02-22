@@ -16,7 +16,8 @@ You can grab the cdn link down below :
 <pre><code>
 &lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/canvas00/Js/canvas-game.min.js"&gt;&lt;/script&gt;
 </code></pre>
-The documentation link :
+
+
 
 <a href="https://github.com/JcerelusDev/canvas00/wiki">Get Started </a>
 
