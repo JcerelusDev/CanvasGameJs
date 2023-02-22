@@ -19,7 +19,7 @@ You can grab the cdn link down below :
 
 
 
-<a href="https://github.com/JcerelusDev/canvas00/wiki">Get Started </a>
+<a style="background:black" href="https://github.com/JcerelusDev/canvas00/wiki">Learn More </a>
 
 
 
