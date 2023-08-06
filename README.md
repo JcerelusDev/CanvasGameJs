@@ -41,4 +41,4 @@ Space invaders made with polygons
 
 <a href="https://vm.tiktok.com/ZM2b7L82F">Polygon based Space-invaders</a>
 
-Please Don't forget to stars the project so that many people may try to give it a test.
+
