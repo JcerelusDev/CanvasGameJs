@@ -7,8 +7,7 @@ With canvasGameJs you have the advantage of writing fewer lines of code to get
 things done.
 
 It also supports (gravity and collision detection) and pathfinding using Astar algorithm ,
-you can build the entire game using only (canvasGameJs),
-because it is well documented and built.
+you can build the entire game using only (canvasGameJs).
 
 
 
