@@ -34,4 +34,6 @@ Mobile Chrome browser only
 <a href="https://poly-invaders.netlify.app/
 ">Polygon based Space-invaders</a>
 
+Go to code and inside of js you will find a boiler plate file that teaches you how to structure your files and build your game .
+
 
