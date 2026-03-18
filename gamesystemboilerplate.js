@@ -29,7 +29,7 @@ levels/
   import game from "./main.js"
  import player from "./player.js"
  import { enemies, boss,items } from "./entityGroups.js"
-import {currentLevel}  from "../levels/levelManager.js"
+import {currentLevel}  from "./../levels/levelManager.js"
   
  export let currentScene = {index:1}
  export let lastSceneSeen = currentScene.index
@@ -109,15 +109,20 @@ log("Cause : "+ err)
 }
  
  export function nextScene() {
- if (currentScene.index >= currentLevel.scenes.length) {
- return false
- }
- 
- if(currentScene.index - lastSceneSeen < 1){
- currentScene.index++
- loadScene(currentLevel.scenes[currentScene.index])
+    let level = getCurrentLevel()
+    if (currentScene.index < level.scenes.length-1){
+      currentScene.index++
+    loadScene(level.scenes[currentScene.index])
+  }
+   else{
+  if(gameLevel.index < levels.length-1){
+     nextLevel()
+  }else{
+     game.stopAnimation()
+    log("Congratulations you've completed level" + gameLevel.index)
 }
- }
+}
+  }
  
  export function resetScenes() {
  currentScene.index = 0
@@ -127,23 +132,32 @@ log("Cause : "+ err)
 export {map}
 
 // levelManager.js manage level
+import { resetScenes, loadScene, currentScene } from "./../js/scenemanagement.js"
 import level1 from "./level1.js"
 import level2 from "./level2.js"
-import level3 from "./level3.js"
-import { loadScene,currentScene,resetScenes } from "../js/scene_management.js"
-import player from "../js/player.js"
 
-const levels = [level1, level2, level3]
+let currentLevel = null
+export const levels = [level1, level2]
 
-export let currentLevel = null
-
-export function loadLevel(index) {
- currentLevel = levels[index]
- loadScene(currentLevel.scenes[currentScene.index])
- resetScenes()
-return currentLevel
+export function getCurrentLevel() {
+    return currentLevel;
 }
 
+export let gameLevel = { index: 0 }
+
+export function loadLevel(index) {
+  if(gameLevel.index > levels.length-1)return
+    currentLevel = levels[index]
+    loadScene(currentLevel.scenes[currentScene.index])
+}
+
+export function nextLevel() {
+  if(gameLevel.index < levels.length-1){
+    gameLevel.index++
+     resetScenes()
+    loadLevel(gameLevel.index)
+    }
+}
 
 // main.js the entry point
 import {currentLevel,loadLevel}  from "../levels/levelManager.js"
