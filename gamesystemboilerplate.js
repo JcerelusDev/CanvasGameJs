@@ -409,3 +409,5 @@ export default player
 
 // that line make you change scene
     player.items.length == currentLevel.scenes[currentScene.index].maxEntity && currentScene.index < currentLevel.scenes.length ? nextScene() : false //switch scenes oneliner
+
+/* Good to know in home page of the library i have provided oa boilerplate zip file with more precise indications */
