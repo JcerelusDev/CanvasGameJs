@@ -17,6 +17,9 @@ You can grab the cdn link down below :
 </code></pre>
 
 
+Here the links to an update gamefolderboilerplate.zip file for a starter
+
+<a href="https://drive.google.com/file/d/1RG9P98Eo3l0ULfI92goWb4wM-VszJgNS/view?usp=drivesdk"></a>
 
 <a style="background:black" href="https://github.com/JcerelusDev/CanvasGameJs/wiki">Learn More </a>
 
